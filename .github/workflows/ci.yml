@@ -4,9 +4,7 @@ jobs:
   cypress-run:
     runs-on: ubuntu-22.04
     steps:
-      - name: change directory 
-        run: |
-          cd wee
+
       - name: Checkout
         uses: actions/checkout@v3
         
